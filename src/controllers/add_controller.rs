@@ -1,5 +1,3 @@
-//
-/// Handler pour ajouter un nouvel utilisateur
 use crate::pre_import::*;
 pub async fn add_user(
     State(pool): State<PgPool>,

@@ -6,14 +6,6 @@ mod routes;
 mod middleware;
 use crate::pre_import::*;
 
-/*use axum::{http::{HeaderValue, Method}, Router};
-use database::init_pool;
-use dotenvy::dotenv;
-use routes::user_routes::user_routes;
-use std::env;
-use tower_http::cors::{Any, CorsLayer};
-use tower_http::trace::TraceLayer;*/
-
 use middleware::cors::cors_layer;
 #[allow(unused_imports)]
 #[tokio::main]
